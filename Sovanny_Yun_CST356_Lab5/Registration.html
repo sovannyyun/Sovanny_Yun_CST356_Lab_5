@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Back To Home</a>
+    </header>
+    <br />
+    <form id="RegistrationForm">
+        <p class="paragraphClass">
+            <label>FirstName: </label>
+            <input type="text" id="firstName" />
+        </p>
+        <p class="paragraphClass">
+            <label>LastName: </label>
+            <input type="text" id="lastName" />
+        </p>
+        <p class="paragraphClass">
+            <label>Age: </label>
+            <input type="text" id="age" />
+        </p>
+        <p class="paragraphClass">
+            <label>Year In School: </label><br />
+            <input value="20" type="radio" name="schoolyear" />20<br />
+            <input value="30" type="radio" name="schoolyear" />30<br />
+            <input value="40" type="radio" name="schoolyear" />40<br />
+        </p>
+        <p class="paragraphClass">
+            <input onclick="submitRegistration()" value="Register" type="button">
+        </p>
+
+    </form>
+    <div id="showResult" >
+       
+    </div>
+    <footer>
+        Copyrighted to Sovanny. This page is awesome btw.
+    </footer>
+</body>
+</html>
+
+<script src="scripts/app.js">
+
+</script>

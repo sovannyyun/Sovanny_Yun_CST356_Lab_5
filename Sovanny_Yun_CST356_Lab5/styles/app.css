@@ -1,0 +1,36 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    background-color: lightblue;
+    color: black;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+}
+
+nav {
+    background-color: aqua;
+    color: blue;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.sectionClass {
+    color: darkkhaki;
+    font-style: italic;
+}
+
+.paragraphClass {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
